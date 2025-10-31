@@ -1,0 +1,18 @@
+def fibonacci(lim):
+    a=0
+    b=1
+    c=0
+    print(a)
+    print(b)
+    for i in range(2,lim):
+        c=a+b
+        print(c)
+        a=b
+        b=c
+        
+        
+lim = int(input("enter a num"))
+
+fibonacci(lim)
+
+    
